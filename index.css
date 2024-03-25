@@ -1,0 +1,25 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+    color: hsl(0, 0%, 100%);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item:hover{
+  transform: translate(-3px) scale(1.1);
+}
